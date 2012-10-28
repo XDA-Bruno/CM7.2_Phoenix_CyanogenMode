@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.32.9
- * Wed Oct 24 18:44:55 2012
+ * Sun Oct 28 09:35:11 2012
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_VIDEO_V4L1_COMPAT 1
@@ -526,6 +526,7 @@
 #define CONFIG_VECTORS_BASE 0xffff0000
 #define CONFIG_CPU_FREQ_GOV_SCARY 1
 #define CONFIG_CPU_ABRT_EV7 1
+#define CONFIG_SCHED_BFS 1
 #define CONFIG_FB_MSM_MDDI_NOVATEK_FWVGA 1
 #define CONFIG_IPV6_PRIVACY 1
 #define CONFIG_HZ 100
