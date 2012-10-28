@@ -33306,6 +33306,18 @@ extern unsigned int __machine_arch_type;
 # define machine_is_semc_haida()	(0)
 #endif
 
+#ifdef CONFIG_MACH_SEMC_PHOENIX
+# ifdef machine_arch_type
+#  undef machine_arch_type
+#  define machine_arch_type	__machine_arch_type
+# else
+#  define machine_arch_type	MACH_TYPE_SEMC_PHOENIX
+# endif
+# define machine_is_semc_phoenix()	(machine_arch_type == MACH_TYPE_SEMC_PHOENIX)
+#else
+# define machine_is_semc_phoenix()	(0)
+#endif
+
 /*
  * These have not yet been registered
  */
